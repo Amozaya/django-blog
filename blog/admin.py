@@ -11,9 +11,7 @@ class PostAdmin(SummernoteModelAdmin):
     prepopulated_fields = {'slug': ('title',)}
     summernote_fields = ('content',)
 
-@admin.register(About)
-class AboutAdmin(SummernoteModelAdmin):
-    summernote_fields = ('content',)
+
 
 
 # Register your models here.
